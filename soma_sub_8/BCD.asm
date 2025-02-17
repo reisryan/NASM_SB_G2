@@ -44,7 +44,6 @@ bcd_sub:
     jbe .check_high
     sub al, 6           ; Subtrai 6 do nibble inferior
     and al, 0x0F        ; Mantém apenas 4 bits
-    sub ah, 0x10        ; Subtrai 1 do nibble superior (borrow)
 
 .check_high:
     ; Ajuste do nibble superior

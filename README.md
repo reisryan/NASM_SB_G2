@@ -11,6 +11,6 @@ Alunos:  Arthur Mota Furtado - @BomDia12
 Rodando o BCD:
 
 gcc main.c BCD.obj -o bcd_calc.exe
-nasm -f win64 BCD.asm -o BCD.obj
+nasm -f elf64 BCD.asm -o BCD.obj
 
 .\bcd_calc.exe
